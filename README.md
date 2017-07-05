@@ -1,6 +1,8 @@
 # Portfolio Project: Responsive images
 In the Full Stack Nanodegree program of Udacity a simple portfolio landing HTML is required for the fist part of the course.
 
+![alt text](https://user-images.githubusercontent.com/7906289/27851319-8b526206-611f-11e7-9425-d95540f2e7bf.png "Preview")
+
 ## Usage
 1) First install the node dependencies:
 ```bash
