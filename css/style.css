@@ -2,7 +2,6 @@
 
 body {
   margin: 0px;
-  background-color: #EFEFEF;
   color: #A9A9A9;
 }
 
@@ -31,6 +30,8 @@ header h1 {
   font-size: 2em;
   margin: 0px;
   text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
 }
 
 header span{
@@ -39,6 +40,7 @@ header span{
 
 header h2 {
   text-align: right;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-work h2 {
@@ -46,6 +48,7 @@ header h2 {
   font-size: 2em;
   text-transform: uppercase;
   color: #990013;
+  font-family: 'Montserrat', sans-serif;
 }
 
 figcaption {
@@ -82,11 +85,13 @@ figure {
 
 .featured-work-title {
   margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .featured-work {
   display: flex;
   flex-wrap: wrap;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .image-container {
