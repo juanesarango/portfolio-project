@@ -1,13 +1,13 @@
 @import url(http://weloveiconfonts.com/api/?family=zocial);
 
 body {
-  margin: 0px;
-  color: #A9A9A9;
+  margin: 0;
+  color: #a9a9a9;
 }
 
 article {
   width: 80%;
-  margin: 0px 10%;
+  margin: 0 10%;
   border-top: 1px solid #990013;
 }
 
@@ -15,7 +15,7 @@ header {
   margin: 15px 10% 0 10%;
 }
 
-.header a {
+.header-link {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,9 +28,9 @@ header {
 
 header h1 {
   font-size: 2em;
-  margin: 0px;
+  margin: 0;
   text-align: right;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 3px;
 }
 
@@ -40,15 +40,15 @@ header span{
 
 header h2 {
   text-align: right;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .main-work h2 {
-  margin: 5px 0px;
+  margin: 5px 0;
   font-size: 2em;
   text-transform: uppercase;
   color: #990013;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 figcaption {
@@ -68,30 +68,31 @@ figure {
 }
 
 .project {
-  border: 1px solid #A9A9A9;
+  border: 1px solid #a9a9a9;
   max-width: 100%;
   display: block;
   margin: 0 auto;
   height: 180px;
-  width: 100%;
+  width: auto;
 }
 
 .main-project {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  height: 260px;
+  max-height: 400px;
+  height: auto;
 }
 
 .featured-work-title {
   margin-bottom: 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .featured-work {
   display: flex;
   flex-wrap: wrap;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .image-container {
@@ -102,15 +103,15 @@ figure {
 }
 
 section {
-  margin: 0px 10px;
+  margin: 0 10px;
 }
 
 section:first-of-type {
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 section:last-of-type {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 section h3 {
@@ -121,9 +122,8 @@ section h3 {
 
 p {
   text-align: justify;
-  color: #555555;
-  /*font-family: 'Fjalla One', sans-serif;*/
-  font-family: 'Raleway', sans-serif;
+  color: #555;
+  font-family: "Raleway", sans-serif;
 }
 
 a {
@@ -136,12 +136,11 @@ a {
   margin-top: -20px;
 }
 
-/* zocial */
 [class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
-  color: #555555;
+  font-family: "zocial", sans-serif;
+  color: #555;
   font-size: 3em;
-  margin: 0px 20px;
+  margin: 0 20px;
 }
 
 .source {
@@ -161,9 +160,6 @@ a {
 @media (min-width: 1024px) {
   header h2 {
     margin-top: -20px;
-  }
-  .main-project {
-    height: 400px;
   }
 }
 
